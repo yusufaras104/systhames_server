@@ -8,12 +8,12 @@
   "author": "Systhames Networking Ltd.",
   "license": "UNLICENSED",
   "scripts": {
-  "dev": "npx sanity dev",
-  "start": "npx sanity start",
-  "build": "npx sanity build",
-  "deploy": "npx sanity deploy",
-  "deploy-graphql": "npx sanity graphql deploy"
-},
+    "dev": "npx sanity dev",
+    "start": "npx sanity start",
+    "build": "npx sanity build",
+    "deploy": "npx sanity deploy",
+    "deploy-graphql": "npx sanity graphql deploy"
+  },
   "keywords": [
     "sanity"
   ],
