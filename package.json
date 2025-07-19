@@ -8,12 +8,8 @@
   "author": "Systhames Networking Ltd.",
   "license": "UNLICENSED",
   "scripts": {
-    "prebuild": "npm install",
-    "dev": "sanity dev --host 0.0.0.0 --port $PORT",
-    "start": "sanity start --host 0.0.0.0 --port $PORT",
     "build": "sanity build",
-    "deploy": "sanity deploy",
-    "deploy-graphql": "sanity graphql deploy"
+    "dev": "sanity dev"
   },
   "keywords": [
     "sanity"
