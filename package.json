@@ -8,16 +8,17 @@
   "author": "Systhames Networking Ltd.",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "sanity dev",
-    "start": "sanity start",
-    "build": "sanity build",
-    "deploy": "sanity deploy",
-    "deploy-graphql": "sanity graphql deploy"
-  },
+  "dev": "npx sanity dev",
+  "start": "npx sanity start",
+  "build": "npx sanity build",
+  "deploy": "npx sanity deploy",
+  "deploy-graphql": "npx sanity graphql deploy"
+},
   "keywords": [
     "sanity"
   ],
   "dependencies": {
+    "@sanity/cli": "^4.0.1",
     "@sanity/vision": "^3.30.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -32,4 +33,4 @@
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
   }
-} 
+}
